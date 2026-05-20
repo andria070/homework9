@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.tablle {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border: 3px solid red;
+    border-radius: 25px;
+}
+
+
+th {
+    border: 3px solid red;
+    width: 70px;
+    height: 50px;
+    
+}
+
+td {
+    border: 3px solid red;
+    width: 70px;
+    height: 50px;
+}
+
+.tdtd {
+    border: 3px solid red;
+    width: 70px;
+    height: 50px;
+    border-radius: 0 0 20px 0;
+}
+
+.tht {
+    border: 3px solid red;
+    width: 70px;
+    height: 50px;
+    border-radius: 20px 0 0 0;
+}
+
+
+.thth {
+    border: 3px solid red;
+    width: 70px;
+    height: 50px;
+    border-radius: 0 20px 0 0;
+}
+
+.th12 {
+    border: 3px solid red;
+    width: 70px;
+    height: 50px;
+    border-radius: 0 0 0 20px;
+}
+
+
+.semantt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+}
+
+a {
+    font-weight: 700;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.spn {
+    color: rgb(5, 173, 5);
+}
+
+.spnn {
+    color: rgb(255, 27, 27);
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
